@@ -6,7 +6,45 @@ html, body {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-.main
+body
 {
-  margin: auto;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+.main{
+  width: 500px;
+   margin: auto;
+
+   position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.logo
+{
+font-size: 50px;
+color: white;
+margin-bottom: 15px;
+}
+.tag_line
+{
+  font-size: 28px;
+  color: white;
+}
+.button_google
+{
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+.button_google:hover
+{
+  background-color: white;
+  color: purple;
 }
